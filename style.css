@@ -2,8 +2,43 @@
     margin: 0;
     padding: 0;
 }
-main{
+.main{
     background-image: url(assets/images/b-g-1.jpg);
-    height: 95vh;
+    height: 90vh;
     width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px,100vw);
+    position: relative;
+}
+.main .box{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    opacity: 0.75;
+    position: absolute;
+    top:0 ;
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+nav img{
+    height: 40px;
+    margin-top: 2vh;;
+}
+.main .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    position: relative;
+    
 }

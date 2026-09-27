@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-image: url(assets/images/b-g-1.jpg);
+    height: 95vh;
+    width: 100%;
+}

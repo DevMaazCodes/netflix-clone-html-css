@@ -1,25 +1,42 @@
-*{
+@font-face {
+    font-family: "NetflixSans-Bold";
+    src: url(NetflixSans-Bold.otf) format(opentype);
+}
+
+@font-face {
+    font-family: "NetflixSans-Regular";
+    src: url(NetflixSans-Regular.otf) format(opentype);
+}
+
+* {
+    font-family: NetflixSans-Regular;
     margin: 0;
     padding: 0;
 }
-.main{
+body{
+    background-color: black;
+}
+
+.main {
     background-image: url(assets/images/b-g-1.jpg);
     height: 90vh;
     width: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1500px,100vw);
+    background-size: max(1500px, 100vw);
     position: relative;
 }
-.main .box{
+
+.main .box {
     height: 100%;
     width: 100%;
-    background-color:black;
+    background-color: black;
     opacity: 0.75;
     position: absolute;
-    top:0 ;
+    top: 0;
 }
-nav{
+
+nav {
     max-width: 80vw;
     margin: auto;
     display: flex;
@@ -28,11 +45,14 @@ nav{
     position: relative;
     z-index: 1;
 }
-nav img{
+
+nav img {
     height: 40px;
-    margin-top: 2vh;;
+    margin-top: 2vh;
+    ;
 }
-.main .content{
+
+.main .content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,5 +60,30 @@ nav img{
     color: white;
     height: 100%;
     position: relative;
-    
+    padding: 30px;
+}
+
+.main .content .h1 {
+
+    font-family: NetflixSans-Bold;
+    font-size: 56px;
+    text-align: center;
+}
+
+.main .content .h2 {
+    font-family: NetflixSans-Regular;
+    font-size: 20px;
+    text-align: center;
+font-weight: 600;
+margin-top: 10px;
+}
+.main .content .h3 {
+    font-family: NetflixSans-Regular;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.main .input1{
+    margin-top: 12px;
+    margin-bottom: 100px;
 }

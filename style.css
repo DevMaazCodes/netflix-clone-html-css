@@ -129,6 +129,12 @@ nav img {
 @media screen and (max-width:600px) {
     .getstarted {
         display: block;
-        margin: 20px;
+        margin: 20px auto;
+        
+
+    }
+    .email{
+        width: 90vw;
+        margin: auto;
     }
 }

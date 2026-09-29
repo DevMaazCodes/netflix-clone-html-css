@@ -18,7 +18,7 @@
     position: relative;
 }
 
-.arrow {
+.right-arrow {
     display: inline-block;
     margin-left: 8px;
     width: 0;
@@ -26,8 +26,22 @@
     border-top: 6px solid transparent;
     border-bottom: 6px solid transparent;
     border-left: 8px solid white;
+    margin-bottom: 3px;
     /* Arrow color */
 }
+
+.up-arrow {
+    display: inline-block;
+    margin-left: 9px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid white;
+    transform: rotate(90deg);
+    /* Arrow color */
+}
+
 
 * {
     font-family: NetflixSans-Regular;
@@ -128,16 +142,17 @@ nav img {
     font-weight: 600;
 }
 
-.email{
+.email {
     background-color: rgba(23, 23, 23, 0.8);
     font-size: 14px;
-    width:370px;
+    width: 370px;
     padding: 18px 10px;
     color: white;
-    border:1px solid rgb(118 118 118);
+    border: 1px solid rgb(118 118 118);
     border-radius: 10px;
 }
-.email::placeholder{
+
+.email::placeholder {
     color: rgb(152, 152, 152);
     font-size: 14px;
 }
@@ -146,17 +161,30 @@ nav img {
     .getstarted {
         display: block;
         margin: 20px auto;
-        
+
 
     }
-    .email{
+
+    .email {
         width: 90vw;
         margin: auto;
     }
-    nav img{
+
+    nav img {
         height: 30px;
     }
-    .main .content .h1{
-        font-size:48px;
+
+    .main .content .h1 {
+        font-size: 48px;
     }
+}
+.lang{
+    background-color: rgba(22, 22, 22, 0.7);
+    margin-right: 8px;
+    border: 1px solid rgba(255, 254, 254, 0.4);
+    padding: 6px 36px;
+    border-radius: 4px;
+    border-top-width: 1px;
+    color: white;
+    font-size: 16px;
 }

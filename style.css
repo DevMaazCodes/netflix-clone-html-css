@@ -182,9 +182,19 @@ nav img {
     background-color: rgba(22, 22, 22, 0.7);
     margin-right: 8px;
     border: 1px solid rgba(255, 254, 254, 0.4);
-    padding: 6px 36px;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-right:15px;
+    padding-left:10px;
     border-radius: 4px;
     border-top-width: 1px;
     color: white;
-    font-size: 16px;
+    font-size: 16px;    
+}
+.lang-icon{
+    margin: 0;
+    padding: 0;
+    height:16px;
+    transform: translateY(2px);
+    
 }

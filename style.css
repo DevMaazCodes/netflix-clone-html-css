@@ -210,3 +210,11 @@ nav img {
     transform: translateY(2px);
     height: 16px;
 }
+@media screen and (max-width:650px) {
+    .lang{
+        font-size: 0;
+    }
+    .drop-down-icon{
+        transform: translateX(4px) translateY(2px);
+    }
+}

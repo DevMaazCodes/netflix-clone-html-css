@@ -205,3 +205,8 @@ nav img {
     font-weight: 600;
     font-size: 14.5px;
 }
+.drop-down-icon{
+    margin: 0;
+    transform: translateY(2px);
+    height: 16px;
+}

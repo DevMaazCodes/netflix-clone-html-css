@@ -222,8 +222,8 @@ nav img {
         transform: translateX(4px) translateY(2px);
     }
 }
-@media screen and (min-height:882px){
+ @media screen and (min-height:870px) and (max-width:1600px){
     .main{
         height: 800px;
     }
-}
+} 

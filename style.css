@@ -60,7 +60,9 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1500px, 100vw);
-    position: relative;
+    position: absolute;
+    top:0;
+    object-fit: cover;
 }
 
 .main .box {
@@ -191,6 +193,7 @@ nav img {
     color: white;
     font-size: 16px;  
     font-weight: 400;  
+    cursor: pointer;
 }
 .lang-icon{
     margin: 0;
@@ -204,6 +207,7 @@ nav img {
     padding: 6px 14px;
     font-weight: 600;
     font-size: 14.5px;
+    cursor: pointer;
 }
 .drop-down-icon{
     margin: 0;
@@ -216,5 +220,10 @@ nav img {
     }
     .drop-down-icon{
         transform: translateX(4px) translateY(2px);
+    }
+}
+@media screen and (min-height:882px){
+    .main{
+        height: 800px;
     }
 }

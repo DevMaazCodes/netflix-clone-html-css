@@ -230,18 +230,18 @@ nav img {
 .main2{
     border-top: 3px solid  rgb(199, 12, 77);
 }
-.first-section{
+.first-section , .second-section{
     max-width: min(90vw,2300px);
     margin:2vh auto;
-    color: white;
 }
-.first-section h2{
+.heading{
     font-size: 24px;
+     color: white;
 }
 .first-section .images{
     display: flex;
     gap: 50px;
-    overflow: auto auto;
+    overflow-x: auto;
     margin: 30px;
     z-index: 1;
 
@@ -275,5 +275,8 @@ nav img {
    text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
 }
 .image-10 .number{
-  right:130px;
+  right:120px;
+}
+.second-section{
+    margin-top: 60px;
 }

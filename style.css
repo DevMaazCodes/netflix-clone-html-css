@@ -76,6 +76,7 @@ body {
 
 nav {
     max-width: 85vw;
+    height: 62px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -87,7 +88,6 @@ nav {
 nav img {
     height: 40px;
     margin-top: 2vh;
-    ;
 }
 
 .main .content {
@@ -96,9 +96,9 @@ nav img {
     align-items: center;
     justify-content: center;
     color: white;
-    height: 100%;
+    height:calc(100% - 62px);
     position: relative;
-    padding: 30px;
+    padding: 0px 30px;
 }
 
 .main .content .h1 {
@@ -177,7 +177,7 @@ nav img {
     }
 
     .main .content .h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
 }
 .lang{
@@ -227,3 +227,33 @@ nav img {
         height: 800px;
     }
 } 
+.main2{
+    border-top: 3px solid  rgb(199, 12, 77);
+}
+.first-section{
+    width: 90vw;
+    margin:2vh auto;
+    color: white;
+}
+.first-section h2{
+    font-size: 24px;
+}
+.first-section .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.first-section .image{
+    background-image: url("https://occ-0-4344-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABaZEyL4lBxMbJc6Mov0W6-fxDiCNnI0STN_Vx6ViMePxAAQGf5R3gQLUCEkz2YMSctqnX0q92jBVrJeK0uY79Ub862UN4hl1wNE.webp?r=dd2");
+    height: 276px;
+    width: 197px;
+    position: relative;
+}
+.images .number{
+   color:black;
+   font-size: 48px;
+   position :absolute;
+   top: 200px;
+   right: ;
+}

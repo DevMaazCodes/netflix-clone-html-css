@@ -280,3 +280,32 @@ nav img {
 .second-section{
     margin-top: 60px;
 }
+.second-section .grid{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.second-section .item{
+    height: 250px;
+    border-radius: 15px;
+    background-image: linear-gradient(149deg, rgb(25, 34, 71) 0%, rgb(33, 14, 23) 96.86%);
+    margin-top: 30px;
+    position: relative;
+    
+}
+.item h3{
+    color: white;
+    margin: 20px 15px;
+    font-size: 24px;
+}
+.item div{
+    margin: 0px 15px;
+    margin-right: 70px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.item svg{
+    position: absolute;
+    top:70%;
+    left:80%;
+}

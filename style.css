@@ -324,3 +324,26 @@ nav img {
         margin: 0;
     }
 }
+@media screen and (max-width:900px){
+    .second-section .grid{
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+    .grid .item2{
+        margin: 0;
+    }
+    .grid .item3{
+        margin: 0;
+    }
+    .grid .item4{
+        margin: 0;
+    }
+      .item svg{
+        left: 85%;
+    }
+}
+@media screen and (max-width:515px){
+    .item svg{
+        left: 80%;
+    }
+}

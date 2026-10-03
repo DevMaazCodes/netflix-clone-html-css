@@ -445,3 +445,18 @@ font-size: 14px;
     cursor: pointer;
     font: lighter;
 }
+@media screen and (max-width:1280px) and (min-width:960px) {
+    .f2 .fgrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width:960px) and (min-width:600px) {
+    .f2 .fgrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:600px){
+    .f2 .fgrid{
+        grid-template-columns: 1fr;
+    }
+}

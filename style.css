@@ -215,7 +215,7 @@ nav img {
     height: 16px;
 }
 @media screen and (max-width:650px) {
-    .lang{
+    nav .lang{
         font-size: 0;
     }
     .drop-down-icon{
@@ -459,4 +459,7 @@ font-size: 14px;
     .f2 .fgrid{
         grid-template-columns: 1fr;
     }
+}
+.f2 .fbutton{
+    margin-top: 50px;
 }

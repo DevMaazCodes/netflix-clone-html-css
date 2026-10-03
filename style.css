@@ -407,7 +407,10 @@ background-color: rgb(65 65 65);
     }
 }
 footer{
+    margin: 2vw auto;
     margin-top: 80px;
+    width: min(1700px,80vw);
+
 }
 footer .email{
     width: 600px;
@@ -419,4 +422,26 @@ footer .email{
    footer .getstarted{
     margin-top:16px;
    }
+}
+
+.f2 .call{
+color: rgba(255, 255, 255, 0.7 );
+font-size: 14px;
+}
+.f2 .call span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.f2 .fgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 12px;
+    margin-top: 36px;
+}
+.fgrid .fitem{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7 );
+    font-size: 14px;
+    cursor: pointer;
+    font: lighter;
 }

@@ -230,7 +230,7 @@ nav img {
 .main2{
     border-top: 3px solid  rgb(199, 12, 77);
 }
-.first-section{
+.first-section,.faq{
     max-width: min(90vw,1700px);
     margin:2vh auto;
 }

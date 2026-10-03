@@ -354,6 +354,10 @@ nav img {
         left: 80%;
     }
 }
+.qflex{
+    display: flex;
+    flex-direction: column;
+}
 .faq .question{
     width: 100%;
     background-color: rgb(45 45 45);
@@ -366,8 +370,9 @@ nav img {
     padding: 24px;
     font-size: 24px;
 }
-.plus{
+.faq .question img{
     color: white;
     padding: 24px;
     font-size: 100px;
+    height: 30px;
 }

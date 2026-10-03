@@ -168,7 +168,7 @@ nav img {
     }
 
     .email {
-        width: 90vw;
+        width: 80vw;
         margin: auto;
     }
 
@@ -401,6 +401,11 @@ nav img {
 .faq .question:hover{
 background-color: rgb(65 65 65);
 }
+@media screen and (max-width:433px){
+    .faq .question .q{
+        font-size:11px;
+    }
+}
 footer{
     margin-top: 80px;
 }
@@ -409,7 +414,7 @@ footer .email{
 }
 @media screen and (max-width:900px){
    footer .email{
-        width: 90vw;
+        width: 80vw;
    }
    footer .getstarted{
     margin-top:16px;

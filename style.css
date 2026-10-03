@@ -61,7 +61,7 @@ body {
     background-repeat: no-repeat;
     background-size: max(1500px, 100vw);
     position: absolute;
-    top:0;
+    top: 0;
     object-fit: cover;
 }
 
@@ -96,7 +96,7 @@ nav img {
     align-items: center;
     justify-content: center;
     color: white;
-    height:calc(100% - 62px);
+    height: calc(100% - 62px);
     position: relative;
     padding: 0px 30px;
 }
@@ -180,65 +180,77 @@ nav img {
         font-size: 40px;
     }
 }
-.lang{
+
+.lang {
     background-color: rgba(22, 22, 22, 0.7);
     margin-right: 8px;
     border: 1px solid rgba(255, 254, 254, 0.4);
-    padding-top:4px;
-    padding-bottom:4px;
-    padding-right:15px;
-    padding-left:10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 15px;
+    padding-left: 10px;
     border-radius: 4px;
     border-top-width: 1px;
     color: white;
-    font-size: 16px;  
-    font-weight: 400;  
+    font-size: 16px;
+    font-weight: 400;
     cursor: pointer;
 }
-.lang-icon{
+
+.lang-icon {
     margin: 0;
     padding: 0;
-    height:16px;
+    height: 16px;
     transform: translateY(2px);
-    
+
 }
-.login{
-    border-radius:4px;
+
+.login {
+    border-radius: 4px;
     padding: 6px 14px;
     font-weight: 600;
     font-size: 14.5px;
     cursor: pointer;
 }
-.drop-down-icon{
+
+.drop-down-icon {
     margin: 0;
     transform: translateY(2px);
     height: 16px;
 }
+
 @media screen and (max-width:650px) {
-    nav .lang{
+    nav .lang {
         font-size: 0;
     }
-    .drop-down-icon{
+
+    .drop-down-icon {
         transform: translateX(4px) translateY(2px);
     }
 }
-@media screen and (min-height:870px) and (max-width:1600px){
-    .main{
+
+@media screen and (min-height:870px) and (max-width:1600px) {
+    .main {
         height: 800px;
     }
-} 
-.main2{
-    border-top: 3px solid  rgb(199, 12, 77);
 }
-.first-section,.faq{
-    max-width: min(80vw,1700px);
-    margin:2vh auto;
+
+.main2 {
+    border-top: 3px solid rgb(199, 12, 77);
 }
-.heading{
+
+.first-section,
+.faq {
+    max-width: min(80vw, 1700px);
+    margin: 2vh auto;
+}
+
+.heading {
     font-size: 24px;
-     color: white;
+    color: white;
 }
-.first-section .images{
+
+.first-section .images {
     display: flex;
     gap: 50px;
     overflow-x: auto;
@@ -246,7 +258,8 @@ nav img {
     z-index: 1;
 
 }
-.first-section .image{
+
+.first-section .image {
     background-image: url("https://occ-0-4344-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABaZEyL4lBxMbJc6Mov0W6-fxDiCNnI0STN_Vx6ViMePxAAQGf5R3gQLUCEkz2YMSctqnX0q92jBVrJeK0uY79Ub862UN4hl1wNE.webp?r=dd2");
     height: 276px;
     width: 197px;
@@ -254,35 +267,40 @@ nav img {
     background-position: center center;
     flex-shrink: 0;
     flex-grow: 0;
-    z-index:1;
+    z-index: 1;
     border-radius: 10px;
 }
-.first-section .image:hover{
+
+.first-section .image:hover {
     transform: scale(1.1);
     transition-property: transform;
     transition-duration: 0.5s;
     transition-timing-function: ease;
     transition-delay: 0ms;
 }
-.images .number{
-   color:black;
-   font-size: 80px;
-   position :absolute;
-   top: 180px;
-   right: 155px;
-   font-weight: bolder;
-   font-family: "NetflixSans-Bold";
-   text-shadow: -1px -1px 0 white,1px -1px 0 white,-1px 1px 0 white,1px 1px 0 white;
+
+.images .number {
+    color: black;
+    font-size: 80px;
+    position: absolute;
+    top: 180px;
+    right: 155px;
+    font-weight: bolder;
+    font-family: "NetflixSans-Bold";
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
-.image-10 .number{
-  right:120px;
+
+.image-10 .number {
+    right: 120px;
 }
-.second-section{
-    width: min(80vw,1700px);
-    margin:2vh auto;
+
+.second-section {
+    width: min(80vw, 1700px);
+    margin: 2vh auto;
     margin-top: 60px;
 }
-.second-section .grid{
+
+.second-section .grid {
     display: grid;
     width: 100%;
     margin: auto;
@@ -290,80 +308,98 @@ nav img {
     gap: 20px;
     flex-grow: 0;
 }
-.second-section .item{
+
+.second-section .item {
     height: 250px;
     border-radius: 15px;
     background-image: linear-gradient(149deg, rgb(25, 34, 71) 0%, rgb(33, 14, 23) 96.86%);
     margin-top: 30px;
     position: relative;
 }
-.item h3{
+
+.item h3 {
     color: white;
     margin: 20px 15px;
     font-size: 24px;
 }
-.item div{
+
+.item div {
     margin: 0px 15px;
     margin-right: 70px;
     color: rgba(255, 255, 255, 0.7);
 }
-.item svg{
+
+.item svg {
     position: absolute;
-    top:70%;
-    left:80%;
+    top: 70%;
+    left: 80%;
 }
-@media screen and (max-width:1600px) and (min-width:900px){
-    .item h3{
-        font-size:20px;
+
+@media screen and (max-width:1600px) and (min-width:900px) {
+    .item h3 {
+        font-size: 20px;
     }
-    .second-section .grid{
+
+    .second-section .grid {
         grid-template-columns: 1fr 1fr;
         row-gap: 20px;
     }
-    .grid .item3{
+
+    .grid .item3 {
         margin: 0;
     }
-    .grid .item4{
+
+    .grid .item4 {
         margin: 0;
     }
 }
-@media screen and (max-width:900px){
-    .item h3{
+
+@media screen and (max-width:900px) {
+    .item h3 {
         font-size: 20px;
     }
-    .second-section .grid{
+
+    .second-section .grid {
         grid-template-columns: 100%;
         row-gap: 20px;
     }
-    .grid .item2{
+
+    .grid .item2 {
         margin: 0;
     }
-    .grid .item3{
+
+    .grid .item3 {
         margin: 0;
     }
-    .grid .item4{
+
+    .grid .item4 {
         margin: 0;
     }
-      .item svg{
+
+    .item svg {
         left: 85%;
     }
 }
-@media screen and (max-width:515px){
 
-    .item svg{
+@media screen and (max-width:515px) {
+
+    .item svg {
         left: 80%;
     }
 }
-.faq{
-    margin-top:60px;
+
+.faq {
+    margin-top: 60px;
 }
-.qflex{
+
+.qflex {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     gap: 10px;
 }
-.faq .question{
+
+.faq .question {
     width: 100%;
     background-color: rgb(45 45 45);
     display: flex;
@@ -372,94 +408,125 @@ nav img {
     cursor: pointer;
     border: none;
 }
-.faq .question .q{
+
+.faq .question .q {
     color: white;
     padding: 24px;
     font-size: 24px;
 }
-.faq .question img{
+
+.faq .question img {
     color: white;
     padding: 24px;
     height: 30px;
 }
-@media  screen and (max-width:960px) {
-    .heading{
+
+@media screen and (max-width:960px) {
+    .heading {
         font-size: 18px;
     }
-    .faq .question .q{
-    color: white;
-    padding: 18px;
-    font-size: 18px;
+
+    .faq .question .q {
+        color: white;
+        padding: 18px;
+        font-size: 18px;
+    }
+
+    .faq .question img {
+        color: white;
+        padding: 18px;
+        height: 23px;
+    }
+
 }
-.faq .question img{
-    color: white;
-    padding: 18px;
-    height: 23px;
+
+.faq .question:hover {
+    background-color: rgb(65 65 65);
 }
-    
-}
-.faq .question:hover{
-background-color: rgb(65 65 65);
-}
-@media screen and (max-width:433px){
-    .faq .question .q{
-        font-size:11px;
+
+@media screen and (max-width:433px) {
+    .faq .question .q {
+        font-size: 11px;
     }
 }
-footer{
+
+footer {
     margin: 2vw auto;
     margin-top: 80px;
-    width: min(1700px,80vw);
+    width: min(1700px, 80vw);
 
 }
-footer .email{
+
+footer .email {
     width: 600px;
 }
-@media screen and (max-width:900px){
-   footer .email{
+
+@media screen and (max-width:900px) {
+    footer .email {
         width: 80vw;
-   }
-   footer .getstarted{
-    margin-top:16px;
-   }
+    }
+
+    footer .getstarted {
+        margin-top: 16px;
+    }
 }
 
-.f2 .call{
-color: rgba(255, 255, 255, 0.7 );
-font-size: 14px;
+.f2 .call {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
 }
-.f2 .call span{
+
+.f2 .call span {
     text-decoration: underline;
     cursor: pointer;
 }
-.f2 .fgrid{
+
+.f2 .fgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 12px;
     margin-top: 36px;
 }
-.fgrid .fitem{
+
+.fgrid .fitem {
     text-decoration: underline;
-    color: rgba(255, 255, 255, 0.7 );
+    color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
     cursor: pointer;
     font: lighter;
 }
+
 @media screen and (max-width:1280px) and (min-width:960px) {
-    .f2 .fgrid{
+    .f2 .fgrid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
 @media screen and (max-width:960px) and (min-width:600px) {
-    .f2 .fgrid{
+    .f2 .fgrid {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (max-width:600px){
-    .f2 .fgrid{
+
+@media screen and (max-width:600px) {
+    .f2 .fgrid {
         grid-template-columns: 1fr;
     }
 }
-.f2 .fbutton{
+
+.f2 .fbutton {
     margin-top: 50px;
+}
+
+.f2 .title {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 36px;
+}
+
+.f2 .protection {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 36px;
+    padding-bottom: 100px;
 }
